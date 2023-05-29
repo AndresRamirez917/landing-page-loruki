@@ -47,13 +47,13 @@
 
 .cloud{
 flex-direction: column;
-padding: 20px;
+padding: 20px 0;
+
 }
 
 #languages{
-    
     text-align: center;
-
+    flex-direction: column;
 }
 
 .btn-outline{
