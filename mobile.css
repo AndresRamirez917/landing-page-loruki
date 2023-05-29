@@ -1,24 +1,19 @@
-.flex{
+.flex {
     flex-direction: column;
 }
-
-/* body{
-    background-color: red;
-} */
 
 .navbar ul li a {
     color: black;
 }
 
-.grid{
-    
+.grid {
     grid-template-columns: repeat(1, 1fr);
     margin: 0 auto;
 }
 
 .cli,
 .grid-2,
-.grid-3{
+.grid-3 {
     grid-column: 1;
     margin: 0 auto;
     text-align: center;
@@ -28,35 +23,30 @@
     justify-self: center;
 }
 
-.cli{
+.cli {
     grid-row: 1;
 }
 
-.grid-2{
+.grid-2 {
     grid-row: 2;
 }
 
-.grid-3{
+.grid-3 {
     grid-row: 3;
     margin-bottom: 50px;
 }
 
-.cloud .flex-box img{
+.cloud .flex-box img {
     padding-top: 10px;
 }
 
-.cloud{
-flex-direction: column;
-padding: 20px 0;
-
+.cloud {
+    flex-direction: column;
+    padding: 20px 0;
 }
 
-#languages{
+#languages {
     text-align: center;
     flex-direction: column;
 }
 
-.btn-outline{
-    background-color: rgb(30, 0, 255);
-     color: white;
- }
